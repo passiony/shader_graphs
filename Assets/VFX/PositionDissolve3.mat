@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveMat
-  m_Shader: {fileID: -6465566751694194690, guid: ef92bfc8c2ca92046b3cf3a364572707,
+  m_Name: PositionDissolve3
+  m_Shader: {fileID: -6465566751694194690, guid: 0391a23c85f00c145b14430e75ac188f,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,10 +21,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -39,18 +35,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ClipScale: 0.486
-    - _EdgeWidth: 0.04
-    - _NoiseScale: 50.26
+    - _EdgeWidth: 0.02
+    - _NoiseScale: 100
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 0.74
+    - _Radius: 0
+    - _Strength: 0.8
     m_Colors:
-    - _EdgeColor: {r: 0, g: 15.999998, b: 7.790575, a: 1}
-    - _HitPostion: {r: 0, g: 0, b: 0, a: 0}
-    - _Position: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 0.9605563, g: 1, b: 0, a: 0}
+    - _Position: {r: -0.92, g: -0.09, b: -1.17, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8092444422504406880
+--- !u!114 &5648263812184574071
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

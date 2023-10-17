@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveMat
-  m_Shader: {fileID: -6465566751694194690, guid: ef92bfc8c2ca92046b3cf3a364572707,
+  m_Name: Holographic
+  m_Shader: {fileID: -6465566751694194690, guid: 6308762d00dd58b48a80861dce06a4e7,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,8 +21,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
+    - _HologramScanline:
+        m_Texture: {fileID: 2800000, guid: a7be3266d6f6b3741b3b682f114b3a1d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,18 +39,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ClipScale: 0.486
-    - _EdgeWidth: 0.04
-    - _NoiseScale: 50.26
+    - _EdgeWidth: 0.05
+    - _NoiseScale: 200
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 0.74
+    - _Radius: 0
+    - _ScrollSpeed: 0.05
+    - _Strength: 0.9
     m_Colors:
-    - _EdgeColor: {r: 0, g: 15.999998, b: 7.790575, a: 1}
-    - _HitPostion: {r: 0, g: 0, b: 0, a: 0}
-    - _Position: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 15.979715, g: 16, b: 0, a: 0}
+    - _Fresnel_Color: {r: 0.98039216, g: 0.25854516, b: 0.18431365, a: 1}
+    - _HologramTiling: {r: 15, g: 15, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Position1: {r: 0, g: 0, b: 0.6, a: 0}
+    - _Position2: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8092444422504406880
+--- !u!114 &3638731760601686835
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
