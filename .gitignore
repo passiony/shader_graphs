@@ -2,6 +2,7 @@
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
+/[Ll]ogs/
 /[Bb]uilds/
 /[Hh]ybridCLRData/
 /[Aa]ssetPackage/
@@ -25,3 +26,4 @@
 !/Assets/StreamingAssets/.gitkeep
 /ProjectSettings/ProjectVersion.txt
 /UnityPackageManager/*
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
